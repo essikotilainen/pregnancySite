@@ -1,0 +1,148 @@
+/* Essi Kotilainen 
+
+Värit:
+tummaharmaa: #353535;
+turkoosi: #3c6e71;
+tumma turkoosi: #30585A;
+valkea: #ffffff;
+harmaa: #d9d9d9;
+sininen: #284b63;
+vaaleanpunainen: #f1adb9;
+vaaleampi vaaleanpunainen: #e5c2c8;
+valkea tausta: #E8E8E8
+*/
+
+main {
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+
+header {
+  background: linear-gradient(to right, #f1adb9 0%, #3c6e71 100%);
+  padding-top: 10px;
+  color: #30585a;
+}
+
+nav,
+footer,
+h2 {
+  font-family: sans-serif;
+}
+
+nav li a:hover {
+  background-color: #3c6e71;
+  opacity: 0.8;
+  color: #e5c2c8 !important;
+  border-radius: 3px;
+}
+
+footer {
+  padding-top: 10px;
+  background-color: #f1adb9;
+  opacity: 0.9;
+}
+
+h1 {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 5em;
+}
+
+h2 {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 3em;
+  color: #30585a;
+}
+
+.caption {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.quiz_border {
+  border-top: 1px solid #284b63;
+}
+
+.h2center {
+  text-align: center;
+}
+
+.bmi_exp {
+  background-color: #3c6e71;
+  color: #ffffff;
+}
+
+.list-group-item {
+  font-size: small;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+body,
+html {
+  height: 100%; /* this is a must for parallax. */
+}
+
+#bgimg1 {
+  background-image: url('../img/drawing_black.png');
+  height: 50%;
+}
+
+#bgimg2 {
+  background-image: url('../img/drawing_black.png');
+  height: 30%;
+}
+
+.parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0%;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  opacity: 0.95;
+}
+
+.caption span.border {
+  font-family: 'Sue Ellen Francisco', cursive;
+  background-color: #30585a;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.text {
+  width: 70%;
+  padding-top: 15px;
+  padding-left: 25%;
+  text-align: center;
+}
+
+.small_text {
+  font-size: small;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #e5c2c8;
+  color: black;
+  padding: 5px 0px 5px 0px;
+}
+
+.front_page {
+  background-color: #759fa1;
+}
